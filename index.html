@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ammar N. Abbas - AI/ML Scientist & Mechatronics Engineer</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@300;600&display=swap');
         body {
             font-family: 'Roboto', sans-serif;
             line-height: 1.6;
@@ -22,9 +22,10 @@
             background: #fff;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             border-radius: 10px;
+            animation: fadeIn 1s ease-in-out;
         }
         header {
-            background: #007bff;
+            background: linear-gradient(to right, #007bff, #00d4ff);
             color: #fff;
             padding: 20px 0;
             text-align: center;
@@ -33,6 +34,7 @@
         header h1 {
             margin: 0;
             font-size: 2.5em;
+            font-family: 'Montserrat', sans-serif;
         }
         header p {
             margin: 5px 0 0;
@@ -54,10 +56,12 @@
             border-bottom: 2px solid #007bff;
             padding-bottom: 5px;
             font-size: 1.8em;
+            font-family: 'Montserrat', sans-serif;
         }
         h3 {
             color: #333;
             font-size: 1.5em;
+            font-family: 'Montserrat', sans-serif;
         }
         p {
             margin: 10px 0;
@@ -73,6 +77,10 @@
             padding: 10px;
             border-left: 4px solid #007bff;
             font-size: 1.1em;
+            transition: background 0.3s;
+        }
+        ul li:hover {
+            background: #e9ecef;
         }
         .contact {
             text-align: center;
@@ -84,9 +92,11 @@
             display: inline-block;
             margin: 0 10px;
             font-size: 1.2em;
+            transition: color 0.3s, transform 0.3s;
         }
         .contact a:hover {
-            text-decoration: underline;
+            color: #0056b3;
+            transform: scale(1.1);
         }
         footer {
             background: #007bff;
@@ -114,6 +124,10 @@
             .contact a {
                 font-size: 1em;
             }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
     </style>
 </head>
@@ -179,7 +193,7 @@
                 <li>CAD: SolidWorks, NX, Fusion360</li>
             </ul>
 
-            <h2>Publications</h2>
+             <h2>Publications</h2>
             <ul>
                 <li><strong>Abbas A. N.</strong>, Chasparis, G. C., & Kelleher, J. D. (2022). "<strong>Interpretable input-output hidden Markov model-based deep reinforcement learning for the predictive maintenance of turbofan engines</strong>." <em>International Conference on Big Data Analytics and Knowledge Discovery</em>, 133-148.</li>
                 <li>Diab, M. K., <strong>Abbas A. N.</strong>, Ammar, H. H., & Shalaby, R. (2020). "<strong>Experimental lane keeping assist for an autonomous vehicle based on optimal PID controller</strong>." <em>2020 2nd Novel Intelligent and Leading Emerging Sciences Conference (NILES)</em>.</li>
@@ -249,18 +263,17 @@
                 <li><strong>National Idea Bank III, Pakistan</strong> (Top 3 out of 2400 applications)</li>
                 <li><strong>Bolton Trust TU Dublin Student Enterprise</strong> (Semi-finalist)</li>
             </ul>
-
-            
         </div>
+
         <div class="contact">
-            <a href="mailto:ammar.abbas@scch.at">Email</a>
-            <a href="https://www.linkedin.com/in/ammar-abbas/">LinkedIn</a>
-            <a href="https://github.com/ammar-n-abbas">GitHub</a>
-            <a href="https://nathadammar.portfoliobox.net/">Portfolio</a>
+            <a href="https://linkedin.com/in/ammar-n-abbas" target="_blank">LinkedIn</a>
+            <a href="https://github.com/ammar-n-abbas" target="_blank">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=AmmarNAbbas" target="_blank">Google Scholar</a>
         </div>
     </div>
     <footer>
-        <p>&copy; 2024 Ammar N. Abbas. All rights reserved.</p>
+        &copy; 2024 Ammar N. Abbas
     </footer>
 </body>
 </html>
+
