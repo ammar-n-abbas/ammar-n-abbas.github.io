@@ -1,210 +1,195 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, maximum-scale=1">
-<title>Ammar N. Abbas - AI/ML Scientist & Mechatronics Engineer</title>
-<link rel="icon" href="favicon.png" type="image/png">
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-<link href="css/style.css" rel="stylesheet" type="text/css"> 
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
-<link href="css/animate.css" rel="stylesheet" type="text/css">
- 
-<!--[if lt IE 9]>
-    <script src="js/respond-1.1.0.min.js"></script>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/html5element.js"></script>
-<![endif]-->
- 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ammar N. Abbas - AI/ML Scientist & Mechatronics Engineer</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        header {
+            background: url('https://ammar-n-abbas.github.io/assets/pp.png') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin-top: 20%;
+            font-size: 3em;
+        }
+        header h2 {
+            margin-top: 1%;
+            font-size: 2em;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.8);
+        }
+        section {
+            padding: 60px 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-<header id="header">
-    <div id="head" class="parallax" parallax-speed="2" style="background-position: 50% 0px;">
-        <div class="top_left_cont zoomIn wow animated" id="logo"> 
-            <img class="img-circle" src="https://ammar-n-abbas.github.io/assets/pp.png" alt="Ammar N. Abbas">
-            <h2>Hello! I am Ammar N. Abbas <br/><strong>AI/ML Scientist & Mechatronics Engineer</strong></h2>
-        </div>
-    </div>
+<header>
+    <h1>Ammar N. Abbas</h1>
+    <h2>AI/ML Scientist & Mechatronics Engineer</h2>
 </header>
- 
-<!--Header_section-->
-<header id="header_wrapper">
-  <div class="container">
-    <div class="header_box">
-      <!--<div class="logo"><a href="#">Resume</a></div>-->
-      <nav class="navbar navbar-inverse" role="navigation">
-        <div class="navbar-header">
-          <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> 
-            <span class="sr-only">Toggle navigation</span> 
-            <span class="icon-bar"></span> 
-            <span class="icon-bar"></span> 
-            <span class="icon-bar"></span> 
-          </button>
-        </div>
-        <div id="main-nav" class="collapse navbar-collapse navStyle">
-          <ul class="nav navbar-nav" id="mainNav">
-            <li class="active"><a href="#header" class="scroll-link">Home</a></li>
-            <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
-            <li><a href="#skills" class="scroll-link">Skills</a></li>
-            <li><a href="#experience" class="scroll-link">Experience</a></li> 
-            <li><a href="#publications" class="scroll-link">Publications</a></li>
-            <li><a href="#awards" class="scroll-link">Awards</a></li>
-            <li><a href="#contact" class="scroll-link">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-</header>
-<!--Header_section--> 
 
-<section id="aboutUs"><!--Aboutus-->
-<div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
-  <div class="container">
-    <h2>About Me</h2>
-    <p>
-        I am an AI/ML Scientist and Mechatronics Engineer with extensive experience in developing interpretable industrial machines via Large Language Models (LLM) and Deep Reinforcement Learning (DRL). My work spans various industries and includes roles such as AI Scientist, Researcher, and Founder & CEO of Goddard - Discovery. I have a strong background in machine learning, programming, and robotics.
-    </p>
-  </div>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Resume</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="about">
+    <div class="container">
+        <h2 class="text-center">About Me</h2>
+        <p class="text-center">I am an AI/ML Scientist and Mechatronics Engineer with extensive experience in developing interpretable industrial machines via Large Language Models (LLM) and Deep Reinforcement Learning (DRL). My work spans various industries and includes roles such as AI Scientist, Researcher, and Founder & CEO of Goddard - Discovery. I have a strong background in machine learning, programming, and robotics.</p>
+    </div>
 </section>
 
 <section id="experience">
-<div class="inner_wrapper fadeInLeft animated wow">
-  <div class="container">
-    <h2>Professional Experience</h2>
-    <div>
-        <h3>AI Scientist (Contract) - Robotics Foundation Model</h3>
-        <p><strong>Institution:</strong> Austrian Institute of Technology, Austria</p>
-        <p><strong>Duration:</strong> 04/2024 - 07/2024</p>
-        <p><strong>Responsibilities:</strong> Developing interpretable industrial machines via Large Language Model (LLM) as General Pattern Machines for robotic manipulation.</p>
+    <div class="container">
+        <h2 class="text-center">Professional Experience</h2>
+        <div>
+            <h3>AI Scientist (Contract) - Robotics Foundation Model</h3>
+            <p><strong>Institution:</strong> Austrian Institute of Technology, Austria</p>
+            <p><strong>Duration:</strong> 04/2024 - 07/2024</p>
+            <p><strong>Responsibilities:</strong> Developing interpretable industrial machines via Large Language Model (LLM) as General Pattern Machines for robotic manipulation.</p>
 
-        <h3>Visiting Robotics Researcher - Deep Reinforcement Learning</h3>
-        <p><strong>Institution:</strong> Irish Manufacturing Research, Ireland</p>
-        <p><strong>Duration:</strong> 11/2023 - 03/2024</p>
-        <p><strong>Responsibilities:</strong> Improved human-robot collaboration in industrial robotics through Sim2Real, Safety-Compliant, and hierarchical DRL.</p>
+            <h3>Visiting Robotics Researcher - Deep Reinforcement Learning</h3>
+            <p><strong>Institution:</strong> Irish Manufacturing Research, Ireland</p>
+            <p><strong>Duration:</strong> 11/2023 - 03/2024</p>
+            <p><strong>Responsibilities:</strong> Improved human-robot collaboration in industrial robotics through Sim2Real, Safety-Compliant, and hierarchical DRL.</p>
 
-        <h3>Visiting Human-Centered AI Researcher - Deep Reinforcement Learning</h3>
-        <p><strong>Institution:</strong> Polytechnic University of Turin, Italy</p>
-        <p><strong>Duration:</strong> 10/2022 - 10/2023</p>
-        <p><strong>Responsibilities:</strong> Collected and analyzed data through a user-study on DRL-based decision support with human-in-the-loop in process control room simulation.</p>
+            <h3>Visiting Human-Centered AI Researcher - Deep Reinforcement Learning</h3>
+            <p><strong>Institution:</strong> Polytechnic University of Turin, Italy</p>
+            <p><strong>Duration:</strong> 10/2022 - 10/2023</p>
+            <p><strong>Responsibilities:</strong> Collected and analyzed data through a user-study on DRL-based decision support with human-in-the-loop in process control room simulation.</p>
 
-        <h3>Founder & CEO - Goddard - Discovery</h3>
-        <p><strong>Institution:</strong> Goddard - Discovery</p>
-        <p><strong>Duration:</strong> 01/2022 - Present</p>
-        <p><strong>Responsibilities:</strong> Lead the development of innovative solutions in the field of robotics and artificial intelligence, focusing on real-world applications and research.</p>
+            <h3>Founder & CEO - Goddard - Discovery</h3>
+            <p><strong>Institution:</strong> Goddard - Discovery</p>
+            <p><strong>Duration:</strong> 01/2022 - Present</p>
+            <p><strong>Responsibilities:</strong> Lead the development of innovative solutions in the field of robotics and artificial intelligence, focusing on real-world applications and research.</p>
 
-        <h3>Mechatronics Engineer - Various Projects</h3>
-        <p><strong>Institution:</strong> Various</p>
-        <p><strong>Duration:</strong> Ongoing</p>
-        <p><strong>Responsibilities:</strong> Worked on diverse projects involving automation, control systems, and robotics, contributing to both the technical and project management aspects.</p>
+            <h3>Mechatronics Engineer - Various Projects</h3>
+            <p><strong>Institution:</strong> Various</p>
+            <p><strong>Duration:</strong> Ongoing</p>
+            <p><strong>Responsibilities:</strong> Worked on diverse projects involving automation, control systems, and robotics, contributing to both the technical and project management aspects.</p>
+        </div>
     </div>
-  </div>
-</div>
 </section>
 
 <section id="education">
-<div class="inner_wrapper fadeInLeft animated wow">
-  <div class="container">
-    <h2>Education</h2>
-    <div>
-        <h3>European Industrial Doctorate - AI (Marie Sklodowska Curie Fellowship)</h3>
-        <p><strong>Focus:</strong> Collaborative Intelligence for Safety-Critical Systems</p>
-        <p><strong>Countries:</strong> Austria, Italy, Ireland</p>
-        
-        <h3>Master of Science - Mechatronics (Erasmus Mundus Scholarship)</h3>
-        <p><strong>Program:</strong> Erasmus Mundus Joint Master Degree EU4M</p>
-        <p><strong>Countries:</strong> Egypt, France, Spain</p>
-        
-        <h3>Bachelor of Engineering - Mechanical (USA-Based Scholarship)</h3>
-        <p><strong>Institution:</strong> NED University of Engineering and Technology, Pakistan</p>
+    <div class="container">
+        <h2 class="text-center">Education</h2>
+        <div>
+            <h3>European Industrial Doctorate - AI (Marie Sklodowska Curie Fellowship)</h3>
+            <p><strong>Focus:</strong> Collaborative Intelligence for Safety-Critical Systems</p>
+            <p><strong>Countries:</strong> Austria, Italy, Ireland</p>
+            
+            <h3>Master of Science - Mechatronics (Erasmus Mundus Scholarship)</h3>
+            <p><strong>Program:</strong> Erasmus Mundus Joint Master Degree EU4M</p>
+            <p><strong>Countries:</strong> Egypt, France, Spain</p>
+            
+            <h3>Bachelor of Engineering - Mechanical (USA-Based Scholarship)</h3>
+            <p><strong>Institution:</strong> NED University of Engineering and Technology, Pakistan</p>
+        </div>
     </div>
-  </div>
-</div>
 </section>
 
 <section id="skills">
-<div class="inner_wrapper fadeInLeft animated wow">
-  <div class="container">
-    <h2>Skills</h2>
-    <ul>
-        <li>Machine Learning: TensorFlow, PyTorch, LLMs, DRL, Diffusion, GenAI</li>
-        <li>Programming: ROS, Python, MATLAB, Arduino</li>
-        <li>Simulation: CARLA, Simulink</li>
-        <li>DevOps: Docker, AWS, GCP</li>
-        <li>Image Processing: OpenCV</li>
-        <li>Multicopter/robot control: ROS, APM, Mission Planner</li>
-        <li>Controller: Raspberry-pi, Arduino</li>
-        <li>CAD: SolidWorks, NX, Fusion360</li>
-    </ul>
-  </div>
-</div>
+    <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <ul class="list-unstyled text-center">
+            <li>Machine Learning: TensorFlow, PyTorch, LLMs, DRL, Diffusion, GenAI</li>
+            <li>Programming: ROS, Python, MATLAB, Arduino</li>
+            <li>Simulation: CARLA, Simulink</li>
+            <li>DevOps: Docker, AWS, GCP</li>
+            <li>Image Processing: OpenCV</li>
+            <li>Multicopter/robot control: ROS, APM, Mission Planner</li>
+            <li>Controller: Raspberry-pi, Arduino</li>
+            <li>CAD: SolidWorks, NX, Fusion360</li>
+        </ul>
+    </div>
 </section>
 
 <section id="publications">
-<div class="inner_wrapper fadeInLeft animated wow">
-  <div class="container">
-    <h2>Publications</h2>
-    <ul>
-        <li><strong>Abbas A. N.</strong>, Chasparis, G. C., & Kelleher, J. D. (2022). "<strong>Interpretable input-output hidden Markov model-based deep reinforcement learning for the predictive maintenance of turbofan engines</strong>." <em>International Conference on Big Data Analytics and Knowledge Discovery</em>, 133-148.</li>
-        <li>Diab, M. K., <strong>Abbas A. N.</strong>, Ammar, H. H., & Shalaby, R. (2020). "<strong>Experimental lane keeping assist for an autonomous vehicle based on optimal control using APM</strong>." <em>International Journal of Dynamics and Control</em>, 1-12.</li>
-        <li>Rehman, A., Saeed, M., <strong>Abbas, A. N.</strong>, & Sheikh, A. (2018). "<strong>Modernization of library and reduction in human effort with the help of a mechatronics robot</strong>." <em>2018 International Conference on Advancements in Computational Sciences (ICACS)</em>, 1-6.</li>
-    </ul>
-  </div>
-</div>
+    <div class="container">
+        <h2 class="text-center">Publications</h2>
+        <ul class="list-unstyled text-center">
+            <li><strong>Abbas A. N.</strong>, Chasparis, G. C., & Kelleher, J. D. (2022). "Interpretable input-output hidden Markov model-based deep reinforcement learning for the predictive maintenance of turbofan engines." <em>International Conference on Big Data Analytics and Knowledge Discovery</em>, 133-148.</li>
+            <li>Diab, M. K., <strong>Abbas A. N.</strong>, Ammar, H. H., & Shalaby, R. (2020). "Experimental lane keeping assist for an autonomous vehicle based on optimal control using APM." <em>International Journal of Dynamics and Control</em>, 1-12.</li>
+            <li>Rehman, A., Saeed, M., <strong>Abbas, A. N.</strong>, & Sheikh, A. (2018). "Modernization of library and reduction in human effort with the help of a mechatronics robot." <em>2018 International Conference on Advancements in Computational Sciences (ICACS)</em>, 1-6.</li>
+        </ul>
+    </div>
 </section>
 
 <section id="awards">
-<div class="inner_wrapper fadeInLeft animated wow">
-  <div class="container">
-    <h2>Awards</h2>
-    <ul>
-        <li>Marie Sklodowska Curie Fellowship (2020-2024)</li>
-        <li>Erasmus Mundus Joint Master Degree Scholarship (2018-2020)</li>
-        <li>USAID-funded scholarship to pursue B.E. at NED University, Pakistan (2012-2016)</li>
-    </ul>
-  </div>
-</div>
+    <div class="container">
+        <h2 class="text-center">Awards</h2>
+        <ul class="list-unstyled text-center">
+            <li>Marie Sklodowska Curie Fellowship (2020-2024)</li>
+            <li>Erasmus Mundus Joint Master Degree Scholarship (2018-2020)</li>
+            <li>USAID-funded scholarship to pursue B.E. at NED University, Pakistan (2012-2016)</li>
+        </ul>
+    </div>
 </section>
 
 <section id="contact">
-<div class="inner_wrapper fadeInLeft animated wow">
-  <div class="container">
-    <h2>Contact</h2>
-    <ul>
-        <li>Email: ammar.n.abbas@outlook.com</li>
-        <li>LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/ammar-n-abbas)</li>
-        <li>GitHub: [GitHub Profile](https://github.com/Ammar-N-Abbas)</li>
-        <li>Website: [Personal Website](https://ammar-n-abbas.github.io/)</li>
-    </ul>
-  </div>
-</div>
+    <div class="container">
+        <h2 class="text-center">Contact</h2>
+        <ul class="list-unstyled text-center">
+            <li>Email: ammar.n.abbas@outlook.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/ammar-n-abbas" target="_blank">LinkedIn Profile</a></li>
+            <li>GitHub: <a href="https://github.com/Ammar-N-Abbas" target="_blank">GitHub Profile</a></li>
+            <li>Website: <a href="https://ammar-n-abbas.github.io/" target="_blank">Personal Website</a></li>
+        </ul>
+    </div>
 </section>
 
 <footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <ul class="list-inline social-icons">
-          <li><a href="https://www.linkedin.com/in/ammar-n-abbas" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://github.com/Ammar-N-Abbas" target="_blank"><i class="fa fa-github"></i></a></li>
-        </ul>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mx-auto">
+                <ul class="list-inline social-icons text-center">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/ammar-n-abbas" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/Ammar-N-Abbas" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
 
-<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="js/jquery.nav.js"></script>
-<script type="text/javascript" src="js/jquery.appear.js"></script>
-<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
-<script type="text/javascript" src="js/jquery.knob.js"></script>
-<script type="text/javascript" src="js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="js/wow.min.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
